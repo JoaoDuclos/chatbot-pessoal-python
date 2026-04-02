@@ -1,5 +1,6 @@
 import random
 import json
+from chatbot.intent_classifier import predict_intent
 
 
 class Chatbot:
@@ -9,15 +10,6 @@ class Chatbot:
             self.intents = data["intents"]
 
     def get_response(self, user_input):
-        user_input = user_input.lower()
 
-        for intent in self.intents:
-            for pattern in intent["patterns"]:
-                if pattern in user_input:
-                    return random.choice(intent["responses"])
-
-        # fallback
-        fallback_intent = next(
-            intent for intent in self.intents if intent["tag"] == "conversa_padrao"
-        )
-        return random.choice(fallback_intent["responses"])
+        intent = predict_intent(user_input, self.intents)
+        return random.choice(intent["responses"])
