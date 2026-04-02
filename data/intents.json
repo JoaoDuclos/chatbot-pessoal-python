@@ -1,0 +1,47 @@
+{
+  "intents": [
+    {
+      "tag": "saudacao",
+      "patterns": ["oi", "olá", "e aí", "bom dia", "boa tarde", "boa noite", "iai", "opa"],
+      "responses": [
+        "Oi! Como posso te ajudar?",
+        "Olá! Em que posso ajudar você hoje?",
+        "E aí! O que manda?"
+      ]
+    },
+    {
+      "tag": "despedida",
+      "patterns": ["tchau", "até logo", "falou", "até mais", "desligar"],
+      "responses": [
+        "Até mais! 👋",
+        "Falou! Qualquer coisa estou por aqui.",
+        "Tchau! Foi um prazer ajudar."
+      ]
+    },
+    {
+      "tag": "ajuda",
+      "patterns": ["me ajuda", "o que você faz", "como você pode ajudar"],
+      "responses": [
+        "Sou seu chatbot pessoal! Posso conversar com você e responder perguntas básicas.",
+        "Posso te ajudar conversando e respondendo perguntas simples por enquanto."
+      ]
+    },
+    {
+      "tag": "quem_sou_eu",
+      "patterns": ["quem sou eu", "você sabe quem eu sou", "meus dados"],
+      "responses": [
+        "Você é o meu criador 😄",
+        "Ainda estou aprendendo sobre você, mas já sei que você programa em Python!"
+      ]
+    },
+    {
+      "tag": "conversa_padrao",
+      "patterns": [],
+      "responses": [
+        "Interessante… me conta mais!",
+        "Entendi 🤔",
+        "Pode explicar melhor?"
+      ]
+    }
+  ]
+}
