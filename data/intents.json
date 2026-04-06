@@ -20,19 +20,15 @@
     },
     {
       "tag": "ajuda",
-      "patterns": ["me ajuda", "o que você faz", "como você pode ajudar", "quem é você"],
+      "patterns": ["me ajuda", "o que você faz", "como você pode ajudar", "preciso de ajuda", "ajuda eu ai", "auxílio"],
       "responses": [
-        "Sou seu chatbot pessoal! Posso conversar com você e responder perguntas básicas.",
         "Posso te ajudar conversando e respondendo perguntas simples por enquanto."
       ]
     },
     {
-      "tag": "quem_sou_eu",
-      "patterns": ["quem sou eu", "você sabe quem eu sou", "meus dados"],
-      "responses": [
-        "Você é o meu criador 😄",
-        "Ainda estou aprendendo sobre você, mas já sei que você programa em Python!"
-      ]
+      "tag": "quem_e_voce",
+      "patterns": ["quem é você", "se apresente", "me fale sobre você", "você é um robô", "você é humano", "o que você é", "você é uma inteligência artificial"],
+      "responses": ["Sou um chatbot, um programa criado para conversar com você 😊", "Não sou humano, mas faço o meu melhor para ajudar como um!"]
     },
     {
       "tag": "conversa_padrao",

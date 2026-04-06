@@ -10,6 +10,6 @@ class Chatbot:
             self.intents = data["intents"]
 
     def get_response(self, user_input):
-
+        
         intent = predict_intent(user_input, self.intents)
         return random.choice(intent["responses"])
