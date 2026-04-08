@@ -20,7 +20,7 @@
     },
     {
       "tag": "ajuda",
-      "patterns": ["me ajuda", "o que você faz", "como você pode ajudar", "preciso de ajuda", "ajuda eu ai", "auxílio"],
+      "patterns": ["me ajuda", "o que você faz", "como você pode ajudar", "preciso de ajuda", "ajuda eu ai", "auxílio", "me ajude com uma duvida"],
       "responses": [
         "Posso te ajudar conversando e respondendo perguntas simples por enquanto."
       ]
